@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+.idea/
+.vscode/
+# Artefactos del módulo de ML (se regeneran)
+scripts/datos_estudiantes.csv
+scripts/models_saved/
+*.joblib
+
+# Configuración de Docker específica de esta máquina
+docker-compose.override.yml
